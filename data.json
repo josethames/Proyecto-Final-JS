@@ -1,0 +1,13 @@
+{
+    "products":[
+    { "id_product": 1, "name": "CAMISETA INTER MIAMI", "img": "images/visitante inter miami.jpg", "price": 100000, "id_category": 1 },
+    { "id_product": 2, "name": "CAMISETA L.A LAKERS", "img": "images/lakers.jpg", "price": 80000, "id_category": 2 },
+    { "id_product": 3, "name": "CAMISETA ARGENTINA QATAR 2022", "img": "images/titular argenitna player version.jpg", "price": 110000, "id_category": 1},
+    { "id_product": 4, "name": "CAMISETA MANCHESTER CITY 23", "img": "images/CITY23.jpg", "price": 70000, "id_category": 1 }
+    ],
+    "category": [
+        {"id_category": 1, "name": "futbol"},
+        {"id_category": 2, "name": "basket"}
+    ]
+}
+
