@@ -3,7 +3,11 @@
     { "id_product": 1, "name": "CAMISETA INTER MIAMI", "img": "images/visitante inter miami.jpg", "price": 100000, "id_category": 1 },
     { "id_product": 2, "name": "CAMISETA L.A LAKERS", "img": "images/lakers.jpg", "price": 80000, "id_category": 2 },
     { "id_product": 3, "name": "CAMISETA ARGENTINA QATAR 2022", "img": "images/titular argenitna player version.jpg", "price": 110000, "id_category": 1},
-    { "id_product": 4, "name": "CAMISETA MANCHESTER CITY 23", "img": "images/CITY23.jpg", "price": 70000, "id_category": 1 }
+    { "id_product": 4, "name": "CAMISETA MANCHESTER CITY 23", "img": "images/CITY23.jpg", "price": 70000, "id_category": 1 },
+    { "id_product": 5, "name": "CAMISETA REAL MADRID 23/24", "img": "images/frente.jpg", "price": 88000, "id_category":1},
+    { "id_product": 6, "name": "CAMISETA RIVER PLATE RETRO", "img": "images/river retro.jpg", "price": 40000, "id_category":1},
+    { "id_product": 7, "name": "CAMISETA GOLDEN STATE WARRIORS 75", "img": "images/warrios 75 anicersario.jpg", "price": 90000, "id_category":2},
+    { "id_product": 8, "name": "CAMISETA MIAMI HEAT", "img": "images/miami heat.jpg", "price": 84000, "id_category":2}
     ],
     "category": [
         {"id_category": 1, "name": "futbol"},

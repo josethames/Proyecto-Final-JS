@@ -63,7 +63,7 @@ selectCategory.addEventListener('change', (e) => {
 })
 
 btnOrder.addEventListener('click', ()=> {
-    products.sort(  (a, b ) => {
+    products_list.sort(  (a, b ) => {
         if(  a.price < b.price  ){
             return -1
         }
@@ -74,7 +74,7 @@ btnOrder.addEventListener('click', ()=> {
         return 0
     } )
 
-    renderProducts(products)
+    renderProducts(products_list)
     btnOrder.setAttribute('disabled', true)
 })
 
@@ -109,10 +109,11 @@ const renderProducts = (list) => {
 
 const addToCart = ( e )=> {
     const id = e.target.id;
-    const product = products.find( item => item.id_product == id );
+    const product = products_list.find( item => item.id_product== id );
     console.table(product);
-    cart.addToCart( product);
+    cart.addToCart(product);
     cartCount.innerText = cart.getCount();
+    
     Toastify({
         close: true,
         text: "Producto agregado al Carrito",
