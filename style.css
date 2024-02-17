@@ -172,3 +172,13 @@ footer {
           footer .container3 .footer-row .footer-links .social-link a:hover {
             background-color: #00C3FF;
 }
+@media (max-width: 991px) {
+    .footer-row {
+      flex-direction: column;
+      text-align: center;
+      margin: auto; }
+    .footer-links {
+      width: 100%;
+      margin-bottom: 30px;
+      justify-content: center;
+      margin: auto; } }

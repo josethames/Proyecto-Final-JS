@@ -5,7 +5,7 @@ class Cart {
     }
 
     addToCart( {id, name, img, price} ){
-        const index = this.cart.findIndex(  product => product.id == id );
+        const index = this.cart.findIndex(  product => product.id_product == id );
         if( index == -1){
             this.cart.push( {id, name, price, units: 1} );
         } else {
